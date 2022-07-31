@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+body {
+  font-family: dnp-shuei-mincho-pr6n, sans-serif;
+  width: 100%;
+  background-color: #FFD900;
+}
+
+.top01{
+  width: 40%;
+  margin: auto;
+  margin-top: 30vh;
+  text-align: center;
+}
+
+.top01 img{
+  width: 25rem;
+  margin-bottom: 2rem;
+}
+
+.top01 p{
+  font-size: 1rem;
+  color: black;
+letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 1201px) {
+  .top01{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .top01{
+    width: 80%;
+  }
+  .top01 img{
+    width: auto;
+  }
+
+  .top01 p{
+    font-size: 0.7rem;
+    letter-spacing: 0.2rem;
+  }
+}
